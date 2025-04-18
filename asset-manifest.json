@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/cantinhodogueimer/static/css/main.bb6383f3.css",
-    "main.js": "/cantinhodogueimer/static/js/main.d899a7be.js",
+    "main.css": "/cantinhodogueimer/static/css/main.77cfd7ff.css",
+    "main.js": "/cantinhodogueimer/static/js/main.03fbdcbe.js",
     "static/js/453.560422a9.chunk.js": "/cantinhodogueimer/static/js/453.560422a9.chunk.js",
-    "static/media/Bebas-Regular.ttf": "/cantinhodogueimer/static/media/Bebas-Regular.90dabffdfc7cafc45f81.ttf",
+    "static/media/rede-globo-bold.ttf": "/cantinhodogueimer/static/media/rede-globo-bold.ea4ec9a0b8dc2f43214b.ttf",
+    "static/media/pooh.ttf": "/cantinhodogueimer/static/media/pooh.f53b6015b00fbe62dc96.ttf",
     "index.html": "/cantinhodogueimer/index.html",
-    "main.bb6383f3.css.map": "/cantinhodogueimer/static/css/main.bb6383f3.css.map",
-    "main.d899a7be.js.map": "/cantinhodogueimer/static/js/main.d899a7be.js.map",
+    "main.77cfd7ff.css.map": "/cantinhodogueimer/static/css/main.77cfd7ff.css.map",
+    "main.03fbdcbe.js.map": "/cantinhodogueimer/static/js/main.03fbdcbe.js.map",
     "453.560422a9.chunk.js.map": "/cantinhodogueimer/static/js/453.560422a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb6383f3.css",
-    "static/js/main.d899a7be.js"
+    "static/css/main.77cfd7ff.css",
+    "static/js/main.03fbdcbe.js"
   ]
 }
