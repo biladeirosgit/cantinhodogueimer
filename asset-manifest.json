@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cantinhodogueimer/static/css/main.bb6383f3.css",
+    "main.js": "/cantinhodogueimer/static/js/main.d899a7be.js",
+    "static/js/453.560422a9.chunk.js": "/cantinhodogueimer/static/js/453.560422a9.chunk.js",
+    "static/media/Bebas-Regular.ttf": "/cantinhodogueimer/static/media/Bebas-Regular.90dabffdfc7cafc45f81.ttf",
+    "index.html": "/cantinhodogueimer/index.html",
+    "main.bb6383f3.css.map": "/cantinhodogueimer/static/css/main.bb6383f3.css.map",
+    "main.d899a7be.js.map": "/cantinhodogueimer/static/js/main.d899a7be.js.map",
+    "453.560422a9.chunk.js.map": "/cantinhodogueimer/static/js/453.560422a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6383f3.css",
+    "static/js/main.d899a7be.js"
+  ]
+}
