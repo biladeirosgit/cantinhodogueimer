@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/cantinhodogueimer/static/css/main.c1e38396.css",
-    "main.js": "/cantinhodogueimer/static/js/main.c3b72140.js",
+    "main.js": "/cantinhodogueimer/static/js/main.54fb720e.js",
     "static/js/453.560422a9.chunk.js": "/cantinhodogueimer/static/js/453.560422a9.chunk.js",
     "static/media/rede-globo-bold.ttf": "/cantinhodogueimer/static/media/rede-globo-bold.ea4ec9a0b8dc2f43214b.ttf",
     "static/media/pooh.ttf": "/cantinhodogueimer/static/media/pooh.f53b6015b00fbe62dc96.ttf",
     "index.html": "/cantinhodogueimer/index.html",
     "main.c1e38396.css.map": "/cantinhodogueimer/static/css/main.c1e38396.css.map",
-    "main.c3b72140.js.map": "/cantinhodogueimer/static/js/main.c3b72140.js.map",
+    "main.54fb720e.js.map": "/cantinhodogueimer/static/js/main.54fb720e.js.map",
     "453.560422a9.chunk.js.map": "/cantinhodogueimer/static/js/453.560422a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e38396.css",
-    "static/js/main.c3b72140.js"
+    "static/js/main.54fb720e.js"
   ]
 }
