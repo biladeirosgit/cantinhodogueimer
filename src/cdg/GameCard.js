@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 import './Game.css';
 import './ratings.scss';
 import { posterSrc, backdropSrc } from '../utils/images';
-import { weekRange } from '../utils/dates';
 import { joinWithAmpersand } from '../utils/format';
 import Avatar from '../components/Avatar';
 
 const GameCard = ({ title, year, link, date, chosenBy, genres, clips, reviews, average, comments }) => {
     const reviewers = Object.keys(reviews || {});
-    const { start, end } = weekRange(date);
     const nclips = (clips || []).length;
     const heroBg = `linear-gradient(90deg, rgba(13,10,20,0.96), rgba(13,10,20,0.45)), url("${backdropSrc(title)}")`;
 
@@ -27,7 +25,7 @@ const GameCard = ({ title, year, link, date, chosenBy, genres, clips, reviews, a
                         {nclips > 0 && <> · {nclips} clips</>}
                         {average && average !== '-' && <> · média <b>{average}</b> ★</>}
                     </p>
-                    <p className="gc-week">Semana de {start} – {end}</p>
+                    <p className="gc-date">Escolhido dia {date}</p>
                     <a className="gc-link" href={link} target="_blank" rel="noopener noreferrer">Ver no Backloggd ↗</a>
                 </div>
             </div>

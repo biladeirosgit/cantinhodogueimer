@@ -207,7 +207,7 @@ img {
     color: var(--color-gold);
 }
 
-.gc-week {
+.gc-date {
     margin: 4px 0;
     color: var(--color-accent-soft);
     font-weight: 700;
