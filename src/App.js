@@ -2,22 +2,23 @@
 
 import React from 'react';
 import { Routes, Route, HashRouter } from "react-router-dom";
-import CinemaClubPage from './cdc/CinemaClubPage';
-import CinemaClubStats from './cdc/CinemaClubStats'; // Importe o novo componente de estatísticas
-import UserStats from './cdc/UserStats'; // Importe o novo componente de estatísticas de usuário
-import GuessGame from './cdc/GuessGame';
-
+import NavBar from './components/NavBar';
+import CantinhoDoGueimerPage from './cdg/CantinhoDoGueimerPage';
+import CantinhoDoGueimerStats from './cdg/CantinhoDoGueimerStats';
+import UserStats from './cdg/UserStats';
+import GuessGame from './cdg/GuessGame';
+import ClipsPage from './cdg/ClipsPage';
 
 const App = () => {
     return (
-        
         <HashRouter>
+            <NavBar />
             <Routes>
-                <Route path="/" element={<CinemaClubPage/>} />
-                <Route path="/stats" element={<CinemaClubStats/>} />
+                <Route path="/" element={<CantinhoDoGueimerPage/>} />
+                <Route path="/stats" element={<CantinhoDoGueimerStats/>} />
                 <Route path="/users/:username" element={<UserStats/>} />
                 <Route path="/guess" element={<GuessGame/>} />
-                {/* Adicione outras rotas aqui */}
+                <Route path="/clips" element={<ClipsPage/>} />
             </Routes>
         </HashRouter>
     );

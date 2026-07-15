@@ -1,0 +1,342 @@
+/* Nota: o `.modal` / `.modal-content` vivem aqui mas sao usados pelo <Modal>,
+   que renderiza via portal para o <body>. Qualquer pagina que use <Modal> tem
+   de ter este ficheiro na sua arvore de imports. */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    min-height: 100vh;
+    font-family: var(--font-display);
+    line-height: 1.6;
+}
+
+h1 {
+    line-height: 1.2;
+}
+
+img {
+    display: block;
+}
+
+/* ---------- Poster do catalogo ---------- */
+.simple-poster {
+    cursor: pointer;
+}
+
+.simple-poster img {
+    border-radius: var(--radius-sm);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.GameCard:hover .simple-poster img {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-md);
+}
+
+.game {
+    width: 200px;
+    height: 365px;
+    margin-right: 20px;
+}
+
+.withratings {
+    margin-bottom: 25px;
+}
+
+.poster {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+    width: 100%;
+    height: 295px;
+    margin-bottom: 10px;
+}
+
+.poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.poster-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    padding: 14px 10px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(13, 10, 20, 0.92) 0%, rgba(13, 10, 20, 0.35) 55%, transparent 100%);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+    pointer-events: none;
+    font-family: var(--font-body);
+}
+
+.GameCard:hover .poster-overlay {
+    opacity: 1;
+}
+
+.poster-overlay-avg {
+    color: var(--color-gold);
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.poster-overlay-chosen {
+    color: var(--color-text-primary);
+    font-size: 0.8rem;
+}
+
+.title {
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.title p {
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    line-height: 1.1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ---------- Modal / shell do card ---------- */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    padding: 24px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(7, 5, 11, 0.75);
+    backdrop-filter: blur(6px);
+    animation: gcFade 0.2s ease;
+}
+
+@keyframes gcFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    width: min(880px, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    background: var(--color-ink2);
+    border: 1px solid var(--color-line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-md);
+    animation: gcPop 0.22s ease;
+}
+
+@keyframes gcPop {
+    from { transform: translateY(14px) scale(0.98); opacity: 0; }
+    to { transform: none; opacity: 1; }
+}
+
+/* ---------- Card do jogo (estilo v2) ---------- */
+.gc {
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+}
+
+.gc-hero {
+    display: flex;
+    gap: 22px;
+    padding: 26px;
+    background-position: center;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.gc-poster img {
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+}
+
+.gc-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-accent-soft);
+    font-weight: 800;
+    margin: 0 0 6px;
+}
+
+.gc-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    letter-spacing: 0.01em;
+    margin: 0 0 8px;
+    line-height: 1;
+}
+
+.gc-meta {
+    margin: 4px 0;
+    color: #e4dff0;
+}
+
+.gc-meta b {
+    color: var(--color-gold);
+}
+
+.gc-week {
+    margin: 4px 0;
+    color: var(--color-accent-soft);
+    font-weight: 700;
+}
+
+.gc-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--color-teal);
+    font-weight: 700;
+}
+
+.gc-link:hover {
+    text-decoration: underline;
+}
+
+.gc-body {
+    padding: 18px 26px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.gc-body h3 {
+    font-size: 0.76rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.gc-chosen {
+    margin: 0;
+    color: var(--color-text-primary);
+}
+
+.gc-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.gc-tags span {
+    background: var(--color-panel2);
+    border: 1px solid var(--color-line);
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    color: var(--color-text-primary);
+}
+
+.gc-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gc-review {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+.gc-review-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.gc-review-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.gc-review-user:hover {
+    color: var(--color-accent);
+}
+
+.gc-review-user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.gc-stars {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.gc-comment {
+    margin: 8px 0 0;
+    color: #c0b8d0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.gc-empty {
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* ---------- Responsividade ---------- */
+@media (max-width: 480px) {
+    .game {
+        width: 140px;
+        height: 260px;
+        margin-right: 0;
+    }
+
+    .poster {
+        height: 205px;
+    }
+}
+
+@media (max-width: 560px) {
+    .gc-hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gc-poster img {
+        width: 110px;
+    }
+}

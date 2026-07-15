@@ -1,0 +1,846 @@
+{   
+    
+    "PEAK": {
+        "year": 2025,
+        "link": "https://backloggd.com/games/peak--1/",
+        "date": "19/07/2025",
+        "chosen by": [
+            "Xadas"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie",
+            "Action",
+            "Open world",
+            "Single player",
+            "Multiplayer",
+            "Co-operative",
+            "First person",
+            "Third person"
+        ],
+        "reviews": {
+            "Braz" : 3,
+            "Geremias" : 3,
+            "Atlas" : 3.5,
+            "NeNelson" : 3.5,
+            "Squnha" : 4
+        },
+        "comments": {
+        },
+        "clips" : []
+    },
+    "Overwatch 2": {
+        "year": 2023,
+        "link": "https://backloggd.com/games/overwatch-2/",
+        "date": "29/06/2025",
+        "chosen by": [
+            "Braz"
+        ],
+        "genres": [
+            "Shooter",
+            "Action",
+            "Science fiction",
+            "Multiplayer",
+            "Co-operative",
+            "First person"
+        ],
+        "reviews": {
+            "Braz" : 4,
+            "Geremias" : 3.5,
+            "Atlas" : 3,
+            "NeNelson" : 4,
+            "Squnha" : 2.5
+        },
+        "comments": {
+        },
+        "clips" : []
+    },
+    "Towerborne": {
+        "year": 2024,
+        "link": "https://backloggd.com/games/towerborne/",
+        "date": "17/06/2025",
+        "chosen by": [
+            "Geremias"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure",
+            "Action",
+            "Single player",
+            "Multiplayer",
+            "Co-operative",
+            "Third person"
+        ],
+        "reviews": {
+            "Geremias" : 2.5,
+            "Atlas" : 3,
+            "Braz" : 2.5,
+            "NeNelson" : 2.5,
+            "Xadas" : 3.5
+        },
+        "comments": {
+        },
+        "clips" : []
+    },
+    "Counter-Strike 2": {
+        "year": 2023,
+        "link": "https://backloggd.com/games/counter-strike-2/",
+        "date": "12/06/2025",
+        "chosen by": [
+            "NeNelson"
+        ],
+        "genres": [
+            "Shooter",
+            "Tactical",
+            "Action",
+            "Warfare",
+            "Single player",
+            "Multiplayer",
+            "First person"
+        ],
+        "reviews": {
+            "NeNelson" : 4,
+            "Escher" : 4.5,
+            "Geremias" : 3,
+            "Braz" : 3.5,
+            "Squnha" : 4.5
+        },
+        "comments": {
+            "Squnha" : ["Faceit > Cs"]
+        },
+        "clips" : []
+    },
+    "Rocket League": {
+        "year": 2015,
+        "link": "https://backloggd.com/games/rocket-league/",
+        "date": "12/06/2025",
+        "chosen by": [
+            "Escher"
+        ],
+        "genres": [
+            "Racing",
+            "Sport",
+            "Indie",
+            "Action",
+            "Science fiction",
+            "Single player",
+            "Multiplayer",
+            "Co-operative",
+            "Split screen",
+            "Third person"
+        ],
+        "reviews": {
+            "Escher" : 4.5,
+            "Geremias" : 3.5,
+            "Braz" : 5,
+            "Atlas" : 4.5,
+            "Squnha" : 5
+        },
+        "comments": {
+        },
+        "clips" : []
+    },
+    "League of Legends": {
+        "year": 2009,
+        "link": "https://backloggd.com/games/league-of-legends/",
+        "date": "07/06/2025",
+        "chosen by": [
+            "NeNelson"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Strategy",
+            "MOBA",
+            "Action",
+            "Fantasy",
+            "Multiplayer",
+            "Co-operative",
+            "Bird view / Isometric"
+        ],
+        "reviews": {
+            "NeNelson" : 5,
+            "Geremias" : 4,
+            "Braz" : 3.5,
+            "Squnha" : 5
+        },
+        "comments": {
+            "Geremias" : ["League of Legends é só um jogo."]
+        },
+        "clips" : []
+    },
+    "Assetto Corsa": {
+        "year": 2014,
+        "link": "https://backloggd.com/games/assetto-corsa/",
+        "date": "18/05/2025",
+        "chosen by": [
+            "Xadas"
+        ],
+        "genres": [
+            "Racing",
+            "Simulator",
+            "Sport",
+            "Indie",
+            "Non-fiction",
+            "Single player",
+            "Multiplayer",
+            "First person",
+            "Third person",
+            "Bird view / Isometric",
+            "Side view",
+            "Virtual Reality"
+        ],
+        "reviews": {
+            "Xadas" : 4,
+            "NeNelson" : 3.5,
+            "Geremias" : 3.5,
+            "Atlas" : 4.5,
+            "Escher" : 5,
+            "Braz" : 3
+        },
+        "comments": {
+            "Geremias" : ["https://www.youtube.com/watch?v=bVWF8xMQe2s"]
+        },
+        "clips" : [
+            {
+                "title" : "acho que houve um acidente",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kndbjpN0BIXBoqzKp?invite=cr-MSxpZzIsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "xadas já vinha...",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncRzrrTCEOjRlwZv?invite=cr-MSxTckYsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "xadas a ser um bom desportista",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncOHbmHD9gag9e7L?invite=cr-MSxRTTksNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "ACELERA XADAS!!!!!!!!",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncCJL6FUE5mlwZGU?invite=cr-MSx5M3QsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "exelente partida",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncCbHeQcP5Z95IM9?invite=cr-MSw5QVosNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "aqui foi mb",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncjBfOD8sXnGz5IZ?invite=cr-MSxPNWMsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "jn...",
+                "data" : "27/05/2025",
+                "link" : "https://medal.tv/games/assetto-corsa/clip/kncaPona8AyhD4fTE?invite=cr-MSxxbm8sNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            }
+        ]
+    },
+    "Anime Music Quiz": {
+        "year": 2018,
+        "link": "https://backloggd.com/games/anime-music-quiz/",
+        "date": "14/05/2025",
+        "chosen by": [
+            "NeNelson",
+            "Xadas"
+        ],
+        "genres": [
+            "Music",
+            "Quiz/Trivia",
+            "Single player",
+            "Multiplayer"
+        ],
+        "reviews": {
+            "NeNelson" : 3.5,
+            "Xadas" : 4,
+            "Geremias" : 3,
+            "Atlas" : 3
+        },
+        "comments": {
+            "Geremias" : ["Meti isto por choro do João Nuno e Xadas."]
+        },
+        "clips" : []
+    },
+    "Clair Obscur: Expedition 33": {
+        "year": 2025,
+        "link": "https://backloggd.com/games/clair-obscur-expedition-33/",
+        "date": "13/05/2025",
+        "chosen by": [
+            "Atlas"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure",
+            "Action",
+            "Fantasy",
+            "Single player",
+            "Third person"
+        ],
+        "reviews": {
+            "Atlas" : 5,
+            "Braz" : 5,
+            "Geremias" : 5
+        },
+        "comments": {
+            "Geremias" : ["A Maelle é a verdadeira miúda atómica."],
+            "Braz" : ["Gustave is Bae"]
+        },
+        "clips" : []
+    },
+    "PICO PARK: Classic Edition": {
+        "year": 2016,
+        "link": "https://backloggd.com/games/pico-park-classic-edition/",
+        "date": "12/05/2025",
+        "chosen by": [
+            "Xadas"
+        ],
+        "genres": [
+            "Adventure",
+            "Indie",
+            "Arcade",
+            "Action",
+            "Single player",
+            "Side view"
+        ],
+        "reviews": {
+            "Xadas" : 5,
+            "NeNelson": 3.5,
+            "Braz" : 3.5,
+            "Atlas" : 4,
+            "Geremias" : 2.5
+        },
+        "comments": {
+            "Geremias" : ["O João Nuno joga Pico Park como se tivesse a jogar Among Us... e ele é péssimo no Among Us."]
+        },
+        "clips" : []
+    },
+    "Fall Guys": {
+        "year": 2020,
+        "link": "https://backloggd.com/games/fall-guys/",
+        "date": "26/04/2025",
+        "chosen by": [
+            "Xadas"
+        ],
+        "genres": [
+            "Platform",
+            "Racing",
+            "Sport",
+            "Indie",
+            "Action",
+            "Comedy",
+            "Party",
+            "Multiplayer",
+            "Co-operative",
+            "Battle Royale",
+            "Third person"
+        ],
+        "reviews": {
+            "Xadas" : 4.5,
+            "NeNelson": 3.5,
+            "Braz" : 4,
+            "Atlas" : 4,
+            "Areias" : 5,
+            "Geremias" : 3.5,
+            "Squnha" : 4
+        },
+        "comments": {
+            "Geremias" : ["O Xadas incorpora muito bem o personagem \"Fall Guy\""]
+        },
+        "clips" : []
+    },
+    "Omega Strikers": {
+        "year": 2022,
+        "link": "https://backloggd.com/games/omega-strikers--1/",
+        "date": "25/04/2025",
+        "chosen by": [
+            "Xadas"
+        ],
+        "genres": [
+            "Strategy",
+            "Tactical",
+            "Arcade",
+            "Action",
+            "Single player",
+            "Multiplayer",
+            "Co-operative",
+            "Bird view / Isometric"
+        ],
+        "reviews": {
+            "Xadas": 4,
+            "NeNelson": 3,
+            "Braz" : 3.5,
+            "Atlas" : 4,
+            "Areias" : 4,
+            "Geremias" : 2.5
+        },
+        "comments": {
+            "Geremias" : ["JOGO DE MERDA! Simulador de lobby."],
+            "Braz" : ["Não acreditem na opinião do areias."]
+        },
+        "clips" : [
+        ]
+    },
+    "REMATCH": {
+        "year": 2025,
+        "link": "https://backloggd.com/games/rematch--1/",
+        "date": "18/04/2025",
+        "chosen by": [
+            "Geremias"
+        ],
+        "genres": [
+            "Sport",
+            "Indie",
+            "Action",
+            "Multiplayer",
+            "Co-operative",
+            "Third person"
+        ],
+        "reviews": {
+            "Geremias": 3.5,
+            "NeNelson": 5,
+            "Braz" : 4,
+            "Xadas" : 4,
+            "Atlas" : 4,
+            "Escher" : 2.5,
+            "Squnha" : 3.5
+        },
+        "comments": {
+            "NeNelson" : ["KEEPER'S"],
+            "Geremias" : ["É tipo Futebol Galático só que não tão bom."],
+            "Squnha" : ["Não vale a pena o preço."]
+        },
+        "clips" : [
+            {
+                "title" : "-100 aura",
+                "data" : "30/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/koumkQQW4IVkf0op5?invite=cr-MSxDWGssNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Braz choke",
+                "data" : "30/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/kou4Ogmn2ed_mF30q?invite=cr-MSxKNUwsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "sem comentários Braz",
+                "data" : "30/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/kosD2tGhw64HjrSm6?invite=cr-MSw1VjksNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "À terceira é de vez",
+                "data" : "29/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knXgVeBU6J7u27tHy?invite=cr-MSx4akEsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "calma Braz ele tem família 2",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knyReH6uLR8sObUwV?invite=cr-MSxzRmUsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "calma Braz ele tem família",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knyJnBrMaUfbZR3u9?invite=cr-MSx1R1osNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "o jn estava farto do overtime",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knyACSpffMTbXGo9k?invite=cr-MSxBQlosNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "+1",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knyoUdi5mF_S2KYaw?invite=cr-MSw4UW8sNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "O jn a roubar me o golo",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knydjuWR7VoNwv5aE?invite=cr-MSx5VkwsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "O Braz não deve ter o botão de cruzar",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knybU4uPtyHOLWoEJ?invite=cr-MSxjeEgsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Muito sincronizada esta dupla",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knxXAbdMzxf5CfyA5?invite=cr-MSxaRVYsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Jn...",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knxVvSwABjLuEScn5?invite=cr-MSxsRkEsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Jogada de laboratório",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knxSmAvnJ3Qd3VNfA?invite=cr-MSxCNm4sNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Acho que o atlas defendeu dentro da baliza",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knxMhDcrb5OecGQOw?invite=cr-MSxCdkMsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "JN fez o mais difícil",
+                "data" : "28/05/2025",
+                "link" : "https://medal.tv/games/rematch/clip/knxJpn6GjDKQ_DIoX?invite=cr-MSxHOTIsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "CRAZY FROG na baliza",
+                "data" : "19/04/2025",
+                "link" : "https://medal.tv/games/rematch/clip/k79CzrwnkQfWuxtjO",
+                "cliped_by" : "Xadas"
+            },
+            {
+                "title" : "jogo menos bugado",
+                "data" : "18/04/2025",
+                "link" : "https://medal.tv/games/rematch/clip/k78jBYqN4y2s3H-i0",
+                "cliped_by" : "Geremias"
+            }
+        ]
+    },
+    "Golf With Your Friends": {
+        "year": 2016,
+        "link": "https://backloggd.com/games/golf-with-your-friends/",
+        "date": "17/04/2025",
+        "chosen by": [
+            "Braz"
+        ],
+        "genres": [
+            "Simulator",
+            "Sport",
+            "Strategy",
+            "Indie",
+            "Kids",
+            "Party",
+            "Single player",
+            "Multiplayer",
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "reviews": {
+            "NeNelson": 1.5,
+            "Geremias": 2.5,
+            "Xadas" : 3,
+            "Braz" : 3,
+            "Atlas" : 3,
+            "Squnha" : 4
+        },
+        "comments": {
+            "NeNelson" : ["Putt Party pago"],
+            "Geremias" : ["Putt Party é, não ironicamente, melhor."]
+        },
+        "clips" : []
+    },
+    "R.E.P.O": {
+        "year": 2025,
+        "link": "https://backloggd.com/games/repo/",
+        "date": "04/04/2025",
+        "chosen by": [
+            "NeNelson"
+        ],
+        "genres": [
+            "Strategy",
+            "Indie",
+            "Themes",
+            "Action",
+            "Science fiction",
+            "Horror",
+            "Survival",
+            "Stealth",
+            "Single player",
+            "Multiplayer",
+            "Co-operative",
+            "First person"
+        ],
+        "reviews": {
+            "NeNelson": 4,
+            "Geremias": 4,
+            "Xadas" : 5,
+            "Braz" : 4.5,
+            "Atlas" : 4.5,
+            "Escher" : 4.5,
+            "Areias" : 5,
+            "Squnha" : 4
+        },
+        "comments": {
+            "NeNelson" : ["I LOOOOOOOOOOOOVE"],
+            "Xadas" : ["Gande cena. Dá para jogarmos todos e é \"free\". Não tenho mais nada a dizer."],
+            "Geremias" : ["Filha da puta do pato."]
+        },
+        "clips" : [
+            {
+                "title" : "quem é que ativou a granada?",
+                "data" : "27/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/kaR8Hq5LcKJZlhhaX?invite=cr-MSxYMWgsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "acho que o jn morreu",
+                "data" : "27/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/kaQSgXln2G4_HUePI?invite=cr-MSxka0UsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "já nem quero levar",
+                "data" : "27/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/kaQQcEDJonokloGNg?invite=cr-MSxXV28sNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "o braz enganou-me...",
+                "data" : "27/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/kaReud4ugcYsv6cLC?invite=cr-MSxnYTYsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "estou só a ver",
+                "data" : "27/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/kaQSgXln2G4_HUePI?invite=cr-MSxnUEEsNDY1ODQ2NDM",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "cuidado com o saco de moedas 5",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2cPpQJT3wWuwGRmg",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "cuidado com o saco de moedas 4",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2cP7GpzWBzB0CPgc",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "levei dano de q?",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2dxkz7IyKrPHhdcm",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "muitas mortes em 30 segundos",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k4FLGXAzqVBCNwYFZ",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "não tenho como me defender",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k4FW1kE0kpAukrkXW",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Não olhes para cima",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Q3hadRYbUCp8qmA",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "everyone is a loser",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Q5vGtwpvmkyyDxD",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Atlas a morrer claramente sozinho + JN Joker arc",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Q4UjDimAR2tFGTM",
+                "cliped_by" : "NeNelson"
+            },
+            {
+                "title" : "Xadas sacrificio heroico",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1QakoH3HXrPxkfbs",
+                "cliped_by" : "NeNelson"
+            },
+            {
+                "title" : "ele não está a vê-lo",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Pu62uKlRkVAAscg",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "jn?",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1PqfBr5LETZsqqjg",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "tentei bué",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Pj17dT2FTUN3Xxs",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "cuidado com o saco de moedas",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1NmkKX6w2v1rdb7G",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "cuidado com o saco de moedas 2",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1NmXmouHQkP3NomI",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "cuidado com o saco de moedas 3",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1P0kZOZt3TeZwuWH",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "\"caguei-me todo\"",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1O3g9YosktYTeMBy",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "eu nem sabia que ali dava para cair puto",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1L4hn9n97AU150A0",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "o focus em mim é ridiculo",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1Os8339EggSUXvoP",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "esqueceram-se de mim",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1OunHHldFlA437xS",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "jn joker",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1OIrHqZUqrtCGFrC",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "foi quase",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k1OVedtIX3teTSBun",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "acho que os tiros passam pela porta",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k23Rc0zwQjyE_M671",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "nao quero jogar mais isto",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k23NoYHKeNNUhKclX",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "escher a falecer",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k23ZHYtaPTRm6ZQ01",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "braz heroi da ventoinha",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k243f6NY5rQ5DhSU7",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "jn a cair",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k244PTd5mqNVSFG5H",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "i believe i can fly",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k246PEjHNciDmxmEY",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "????",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2axCmtUaGa9SlDWQ",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "vão conseguir dizer que é culpa minha",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k29Nwx2gKWfOXJmm7",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "o xadas fica afk feito estupido",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k29IpKGJwid80vc0g",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "completamente safe",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2bShBIBRDO1FITvp",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "o caos",
+                "data" : "06/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k2cz6cmjpM6Wdb681",
+                "cliped_by" : "Geremias"
+            },
+            {
+                "title" : "Não digo nada",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k4j2puXIEUdUgumD-",
+                "cliped_by" : "NeNelson"
+            },
+            {
+                "title" : "Ok",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/games/repo/clip/k4j5J0yvA-o4fhdk_",
+                "cliped_by" : "NeNelson"
+            },
+            {
+                "title" : "O caos, o lucro.",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/pt/games/repo/clip/k4j8RaaVTSa1sdqhz",
+                "cliped_by" : "NeNelson"
+            },
+            {
+                "title" : "Escher double kill",
+                "data" : "12/04/2025",
+                "link" : "https://medal.tv/pt/games/repo/clip/k4jnJ7jwBdI8hOUU2?invite=cr-MSxMUTMsMzg4MzI3MzQ",
+                "cliped_by" : "NeNelson"
+            }
+            ]
+    }
+}

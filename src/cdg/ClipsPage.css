@@ -1,0 +1,129 @@
+/* So o que e proprio da /clips. O resto (.stats-page, .kpi-grid, .filters,
+   .no-results, .title-site) e reusado do Stats e do catalogo. */
+
+.clip-list {
+    width: min(1240px, 92vw);
+    margin: 0 auto 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Mesmo esqueleto do .game-row, com a affordance de expandir. */
+.clip-row {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-md);
+    padding: 12px;
+    cursor: pointer;
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.clip-row:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-accent);
+}
+
+/* Aberto: o acento passa para a borda esquerda e o cartao "cola" ao video. */
+.clip-row[aria-expanded='true'] {
+    border-color: var(--color-accent);
+    border-left: 3px solid var(--color-accent);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform: none;
+}
+
+.clip-row img {
+    width: 52px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+}
+
+.clip-row-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.clip-title {
+    margin: 0 0 5px;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.clip-row-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+.clip-row-meta img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.clip-date {
+    color: var(--color-text-secondary);
+}
+
+.clip-game-tag {
+    background: var(--color-panel2);
+    border: 1px solid var(--color-line);
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    color: var(--color-text-primary);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.clip-chevron {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.clip-row[aria-expanded='true'] .clip-chevron {
+    transform: rotate(180deg);
+    color: var(--color-accent);
+}
+
+.clip-embed {
+    border: 1px solid var(--color-accent);
+    border-top: 0;
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    overflow: hidden;
+    background: #000;
+}
+
+.clip-embed iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    display: block;
+}
+
+@media (max-width: 560px) {
+    .clip-game-tag {
+        display: none;
+    }
+}
