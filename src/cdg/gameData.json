@@ -1,5 +1,37 @@
 {   
     
+    "BOMBANANA!": {
+        "year": 2026,
+        "link": "https://backloggd.com/games/bombanana/",
+        "date": "14/07/2026",
+        "phase": "demo",
+        "chosen by": [
+            "Geremias"
+        ],
+        "genres": [
+            "Puzzle",
+            "Indie",
+            "Multiplayer",
+            "Co-operative",
+            "First person"
+        ],
+        "reviews": {
+            "Braz" : 3.5,
+            "Geremias" : 3.5,
+            "NeNelson" : 3.5,
+            "Atlas" : 3
+        },
+        "comments": {
+        },
+        "clips" : [
+            {
+                "title" : "4 é ímpar",
+                "data" : "14/07/2026",
+                "link" : "https://medal.tv/pt/games/bombanana/clip/n7q3Kq1SUPPIybomu?invite=cr-MSxyck0sNDY1ODQ2NDM",
+                "cliped_by" : "NeNelson"
+            }
+        ]
+    },
     "PEAK": {
         "year": 2025,
         "link": "https://backloggd.com/games/peak--1/",

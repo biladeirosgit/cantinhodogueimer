@@ -48,11 +48,14 @@ describe('phaseOf', () => {
 });
 
 describe('os dados', () => {
-    test('so o League of Legends e o R.E.P.O tem fase', () => {
+    // Explicito de proposito: uma fase que apareca num jogo sem querer tem de
+    // dar erro aqui. Se acrescentares um jogo com fase, esta lista cresce.
+    test('sao estes os jogos com fase, e mais nenhum', () => {
         const comFase = Object.entries(gameData)
             .filter(([, g]) => g.phase)
             .map(([t, g]) => [t, g.phase]);
         expect(comFase).toEqual([
+            ['BOMBANANA!', 'demo'],
             ['League of Legends', 'beta'],
             ['R.E.P.O', 'early-access'],
         ]);
@@ -99,9 +102,23 @@ describe('etiqueta no poster do catalogo', () => {
         }
     });
 
-    test('so ha duas etiquetas no catalogo todo', () => {
+    // Derivado dos dados e nao um numero a martelo: uma etiqueta por jogo com
+    // fase, esteja ele na grelha ou no hero. Assim nao volta a partir so por
+    // se acrescentar um jogo.
+    test('ha exatamente uma etiqueta por jogo com fase', () => {
         const { container } = renderCatalogo();
-        expect(container.querySelectorAll('.phase-badge')).toHaveLength(2);
+        const comFase = Object.values(gameData).filter((g) => g.phase).length;
+        expect(comFase).toBeGreaterThan(0);
+        expect(container.querySelectorAll('.phase-badge')).toHaveLength(comFase);
+    });
+
+    // O BOMBANANA! e o mais recente, logo esta no hero e nao na grelha: e a
+    // prova de que a etiqueta do hero tambem aparece.
+    test('o jogo em destaque tambem leva etiqueta', () => {
+        const { container } = renderCatalogo();
+        const hero = container.querySelector('.hero-game');
+        expect(hero.textContent).toMatch(/BOMBANANA!/);
+        expect(within(hero).getByText('Demo')).toHaveClass('phase-badge--demo');
     });
 });
 
