@@ -3,11 +3,12 @@ import './Game.css';
 import './ratings.scss';
 import GameCard from './GameCard';
 import Modal from '../components/Modal';
+import PhaseBadge from '../components/PhaseBadge';
 import { posterSrc } from '../utils/images';
 import { joinWithAmpersand } from '../utils/format';
 import { average } from '../utils/ratings';
 
-const Game = ({ title, year, link, date, chosenBy, genres, clips, reviews, comments }) => {
+const Game = ({ title, year, link, date, chosenBy, genres, clips, reviews, comments, phase }) => {
     const [showReviews, setShowReviews] = useState(false);
 
     const titleYear = `${title} (${year})`;
@@ -22,6 +23,7 @@ const Game = ({ title, year, link, date, chosenBy, genres, clips, reviews, comme
                 </div>
                 <div className='poster'>
                     <img src={posterSrc(title)} alt={`${title} poster`} loading="lazy" />
+                    <PhaseBadge phase={phase} />
                     <div className="poster-overlay">
                         {avg !== null && <span className="poster-overlay-avg">{avgLabel} ★</span>}
                         {chosenBy && chosenBy.length > 0 && (
@@ -43,6 +45,7 @@ const Game = ({ title, year, link, date, chosenBy, genres, clips, reviews, comme
                         reviews={reviews}
                         average={avg === null ? '-' : avg.toFixed(2)}
                         comments={comments}
+                        phase={phase}
                     />
                 </Modal>
             )}

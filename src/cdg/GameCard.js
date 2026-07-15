@@ -5,8 +5,9 @@ import './ratings.scss';
 import { posterSrc, backdropSrc } from '../utils/images';
 import { joinWithAmpersand } from '../utils/format';
 import Avatar from '../components/Avatar';
+import PhaseBadge from '../components/PhaseBadge';
 
-const GameCard = ({ title, year, link, date, chosenBy, genres, clips, reviews, average, comments }) => {
+const GameCard = ({ title, year, link, date, chosenBy, genres, clips, reviews, average, comments, phase }) => {
     const reviewers = Object.keys(reviews || {});
     const nclips = (clips || []).length;
     const heroBg = `linear-gradient(90deg, rgba(13,10,20,0.96), rgba(13,10,20,0.45)), url("${backdropSrc(title)}")`;
@@ -18,7 +19,10 @@ const GameCard = ({ title, year, link, date, chosenBy, genres, clips, reviews, a
                     <img src={posterSrc(title)} alt={`${title} poster`} />
                 </div>
                 <div className="gc-hero-info">
-                    <p className="gc-kicker">Jogo do clube</p>
+                    <p className="gc-kicker">
+                        Jogo do clube
+                        <PhaseBadge phase={phase} variant="inline" />
+                    </p>
                     <h2 className="gc-title">{title}</h2>
                     <p className="gc-meta">
                         {year}

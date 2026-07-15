@@ -1,0 +1,53 @@
+.phase-badge {
+    font-family: var(--font-body);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-on-accent);
+    white-space: nowrap;
+    line-height: 1;
+}
+
+/* Etiqueta no poster: encostada a esquerda (left: 0, sem folga) e afastada do
+   topo. Os cantos so arredondam a direita -- e o que a faz ler como uma aba
+   presa a lateral, e nao como um chip a flutuar.
+
+   Em cima e nao em baixo porque o .poster-overlay do hover e
+   justify-content: flex-end -- a nota e o "escolha de X" empilham-se no fundo
+   do poster, e a etiqueta tapava-os. */
+.phase-badge--poster {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    /* Acima do .poster-overlay (z-index 1), que no hover escurece o fundo. */
+    z-index: 2;
+    padding: 5px 10px 5px 8px;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    font-size: 0.62rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+/* A escala num poster de 140px (hero da home, card expandido) e menor que nos
+   200px do catalogo, mas quem decide isso e o contentor -- as regras vivem no
+   CSS de cada um, nao aqui nem numa prop.
+
+   No fluxo do texto, dentro do card expandido. */
+.phase-badge--inline {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: var(--radius-lg);
+    font-size: 0.66rem;
+    vertical-align: middle;
+}
+
+.phase-badge--beta {
+    background: var(--phase-beta);
+}
+
+.phase-badge--early-access {
+    background: var(--phase-early-access);
+}
+
+.phase-badge--demo {
+    background: var(--phase-demo);
+}

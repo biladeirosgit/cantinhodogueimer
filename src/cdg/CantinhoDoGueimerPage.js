@@ -8,7 +8,8 @@ import { average } from '../utils/ratings';
 import { compareDatesDesc } from '../utils/dates';
 import { backdropSrc, posterSrc } from '../utils/images';
 import { joinWithAmpersand } from '../utils/format';
-import { chosenBy } from '../utils/games';
+import { chosenBy, phaseOf } from '../utils/games';
+import PhaseBadge from '../components/PhaseBadge';
 
 // Helper functions
 const getUniqueValues = (data, key) => {
@@ -84,6 +85,7 @@ const CantinhoDoGueimerPage = () => {
                     <div className="hero-game-content">
                         <div className="hero-game-poster">
                             <img src={posterSrc(heroTitle)} alt={`${heroTitle} poster`} />
+                            <PhaseBadge phase={phaseOf(heroGame)} />
                         </div>
                         <div className="hero-game-info">
                             <div className="hero-game-eyebrow">Jogo mais recente</div>
@@ -109,6 +111,7 @@ const CantinhoDoGueimerPage = () => {
                         reviews={heroGame.reviews}
                         average={heroAverage === null ? '-' : heroAverage.toFixed(2)}
                         comments={heroGame.comments}
+                        phase={phaseOf(heroGame)}
                     />
                 </Modal>
             )}
@@ -184,6 +187,7 @@ const CantinhoDoGueimerPage = () => {
                             clips={game.clips}
                             reviews={game.reviews}
                             comments={game.comments}
+                            phase={phaseOf(game)}
                         />
                     </div>
                 ))}

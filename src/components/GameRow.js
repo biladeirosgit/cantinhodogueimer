@@ -3,7 +3,7 @@ import GameCard from '../cdg/GameCard';
 import Modal from './Modal';
 import { posterSrc } from '../utils/images';
 import { average } from '../utils/ratings';
-import { chosenBy } from '../utils/games';
+import { chosenBy, phaseOf } from '../utils/games';
 import './GameRow.css';
 
 // Cartao horizontal clicavel: poster + titulo + notas. Abre o card no clique.
@@ -43,6 +43,7 @@ const GameRow = ({ title, game, rank, userRating, userLabel = 'rating', showClub
                         reviews={game.reviews}
                         average={clubAvgLabel}
                         comments={game.comments}
+                        phase={phaseOf(game)}
                     />
                 </Modal>
             )}

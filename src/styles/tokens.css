@@ -16,6 +16,15 @@
     /* Texto sobre fundos accent/gold. Contraste 5.3:1 sobre o roxo. */
     --color-on-accent: #160b22;
 
+    /* Fase em que o clube jogou o jogo. Todas levam texto --color-on-accent
+       por cima -- as tres passam os 4.5:1 do WCAG AA com ele.
+       O roxo e o mesmo hex do --color-accent, mas fica um token a parte de
+       proposito: mexer na cor do site nao pode mudar em silencio o
+       significado de uma etiqueta. */
+    --phase-beta: #38bdf8;
+    --phase-early-access: #a855f7;
+    --phase-demo: #4ade80;
+
     --color-text-primary: #f0ecf7;
     --color-text-secondary: #9b93ad;
 

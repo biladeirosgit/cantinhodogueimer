@@ -264,12 +264,35 @@ a {
     box-sizing: border-box;
 }
 
+.hero-game-poster {
+    /* Contexto de posicionamento para o PhaseBadge, que e absoluto. Sem isto
+       ancorava no .hero-game, la longe. */
+    position: relative;
+    /* O poster tem cantos redondos: a etiqueta encostada a esquerda tem de ser
+       cortada por eles, senao espeta-se para fora. */
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+    align-self: flex-end;
+    /* A sombra sobe da <img> para ca: o overflow:hidden acima cortava-a se
+       ficasse no filho. */
+    box-shadow: var(--shadow-md);
+}
+
 .hero-game-poster img {
     width: 140px;
     height: 207px;
     border-radius: var(--radius-sm);
-    box-shadow: var(--shadow-md);
     display: block;
+}
+
+/* 140px contra os 200px do catalogo: "ACESSO ANTECIPADO" nao cabe a tamanho
+   normal. */
+.hero-game-poster .phase-badge--poster {
+    top: 12px;
+    padding: 4px 8px 4px 6px;
+    font-size: 0.54rem;
+    letter-spacing: 0.04em;
 }
 
 .hero-game-info {

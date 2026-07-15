@@ -188,6 +188,11 @@ img {
     color: var(--color-accent-soft);
     font-weight: 800;
     margin: 0 0 6px;
+    /* Passa a linha para poder levar o PhaseBadge ao lado. O gap trata do
+       espaco: sem ele, o letter-spacing de 0.16em colava-os. */
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .gc-title {
