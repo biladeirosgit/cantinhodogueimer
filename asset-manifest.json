@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cantinhodogueimer/static/css/main.badb0214.css",
-    "main.js": "/cantinhodogueimer/static/js/main.e7aeda8b.js",
+    "main.css": "/cantinhodogueimer/static/css/main.7e2b01d8.css",
+    "main.js": "/cantinhodogueimer/static/js/main.ffc04100.js",
     "static/js/453.560422a9.chunk.js": "/cantinhodogueimer/static/js/453.560422a9.chunk.js",
     "static/media/inter-latin-ext-600-normal.woff": "/cantinhodogueimer/static/media/inter-latin-ext-600-normal.4d0d5017d71ea1750fc1.woff",
     "static/media/inter-latin-ext-700-normal.woff": "/cantinhodogueimer/static/media/inter-latin-ext-700-normal.d4a91814dd3f1e022ab1.woff",
@@ -64,12 +64,12 @@
     "static/media/bricolage-grotesque-vietnamese-800-normal.woff2": "/cantinhodogueimer/static/media/bricolage-grotesque-vietnamese-800-normal.f641604bfdb002404b01.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/cantinhodogueimer/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/cantinhodogueimer/index.html",
-    "main.badb0214.css.map": "/cantinhodogueimer/static/css/main.badb0214.css.map",
-    "main.e7aeda8b.js.map": "/cantinhodogueimer/static/js/main.e7aeda8b.js.map",
+    "main.7e2b01d8.css.map": "/cantinhodogueimer/static/css/main.7e2b01d8.css.map",
+    "main.ffc04100.js.map": "/cantinhodogueimer/static/js/main.ffc04100.js.map",
     "453.560422a9.chunk.js.map": "/cantinhodogueimer/static/js/453.560422a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.badb0214.css",
-    "static/js/main.e7aeda8b.js"
+    "static/css/main.7e2b01d8.css",
+    "static/js/main.ffc04100.js"
   ]
 }
